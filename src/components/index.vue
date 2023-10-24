@@ -15,7 +15,7 @@ const count = ref(0)*/
       <img class="max-w-[100px]" src="/icons/ximerIcono.png" alt="Ximer" />
       <div class="flex flex-col">
         <img class="h-min" src="/icons/ximer.png" alt="Ximer" />
-        <h2 class="hidden md:block font-bold text-base">Conectacto experiencias únicas </h2>
+        <h2 class="font-bold text-base">Conectacto experiencias únicas </h2>
       </div>
     </div>
 
