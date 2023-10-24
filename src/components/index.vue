@@ -12,9 +12,9 @@ const count = ref(0)*/
 <template>
   <header class="w-full h-auto bg-web py-5">
     <div class="flex flex-col sm:flex-row gap-2 md:gap-5 justify-center items-center">
-      <img class="max-w-[100px]" src="icons/ximerIcono.png" alt="Ximer" />
+      <img class="max-w-[100px]" src="/icons/ximerIcono.png" alt="Ximer" />
       <div class="flex flex-col">
-        <img class="h-min" src="icons/ximer.png" alt="Ximer" />
+        <img class="h-min" src="/icons/ximer.png" alt="Ximer" />
         <h2 class="font-bold text-base">Conectacto experiencias únicas</h2>
       </div>
     </div>
@@ -68,7 +68,7 @@ const count = ref(0)*/
             negocios y actividades afines al usuario, de esta manera, la aplicación brinda herramientas para
             personalizar su experiencia turística y aumentando así, su satisfacción y disfrute de su viaje.
           </p>
-          <img class="max-h-[500px] col-span-2 md:col-auto" src="mobile/mockupwhite.png" alt="Ximer" />
+          <img class="max-h-[500px] col-span-2 md:col-auto" src="/mobile/mockupwhite.png" alt="Ximer" />
         </div>
       </div>
     </article>
@@ -140,14 +140,14 @@ const count = ref(0)*/
 
   </main>
   <footer class="bg-website-black py-14">
-    <img class="max-w-[100px] mx-auto" src="icons/ximerIcono.png" alt="Ximer" />
+    <img class="max-w-[100px] mx-auto" src="/icons/ximerIcono.png" alt="Ximer" />
     <p class="text-website-white mx-auto max-w-xs text-center mt-10">Siguenos en:</p>
     <div class="flex max-w-min mx-auto gap-10 mt-5 text-website-pink-dark">
       <a class="mx-auto" href="https://www.facebook.com/ximerApp" target="_blank">
-        <i class="fab fa-facebook-f text-2xl "></i>
+        <i class="fab fa-facebook-f text-5xl "></i>
       </a>
       <a class="mx-auto" href="https://www.instagram.com/ximeroficial/" target="_blank">
-        <i class="fab fa-instagram text-2xl"></i>
+        <i class="fab fa-instagram text-5xl"></i>
       </a>
     </div>
   </footer>
