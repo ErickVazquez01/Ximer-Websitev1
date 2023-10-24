@@ -15,3 +15,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Server versión build
     - npm run build
+
+## Cargar a github pages
+    - npm run deploy
