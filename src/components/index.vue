@@ -23,7 +23,7 @@ const count = ref(0)*/
   <main>
     <article class="max-w-3xl mx-auto text-center">
       <p class="text-3xl font-bold mt-24 mb-16">
-        ¿Ofreces una experiencia turística única y quieres que todos vivan la escencia de tu negocio ?
+        ¿Ofreces una experiencia turística única y quieres que todos vivan la escencia de tu negocio?
       </p>
       <a class="bg-website-pink text-website-white rounded-xl px-10 py-5 hover:bg-website-pink-dark cursor-pointer"
         href="#formulario">
