@@ -64,7 +64,7 @@ const count = ref(0)*/
         <div class="grid grid-cols-1-auto gap-10 bg-website-white rounded-3xl text-website-gray p-10 items-center">
           <h2 class="col-span-2 text-4xl md:px-10">Ayudamos a <span class="text-website-pink-dark font-bold">conectar</span> a los turistas con sus preferencias</h2>
           <p class="col-span-2 md:col-auto max-w-[500px] mx-auto text-2xl lg:-mt-10">
-            Incorporamos un algoritmo de gustos exclusivo y único que le permite a Ximer identificar el tipo de
+            Ximer incorpora un algoritmo de gustos exclusivo y único que nos permite identificar el tipo de
             negocios y actividades afines al usuario, de esta manera, la aplicación brinda herramientas para
             personalizar su experiencia turística y aumentando así, su satisfacción y disfrute de su viaje.
           </p>
