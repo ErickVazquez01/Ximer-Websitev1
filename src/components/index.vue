@@ -44,13 +44,13 @@ const count = ref(0)*/
           class="transition-all duration-300 ease-in-out delay-150 path-2"></path>
       </svg>
       <div class="bg-website-pink text-website-white text-center px-10 -mt-1 lg:-mt-16">
-        <div class="max-w-3xl mx-auto">
-          <h2 class="text-4xl font-bold uppercase">Te presentamos ximer</h2>
-          <p class="pt-10">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-5xl font-bold uppercase">Te presentamos ximer</h2>
+          <p class="pt-10 text-3xl">
             Una innovadora aplicación turística que te permite conectar con tu público ideal, ofreciéndoles una
             experiencia única y personalizada.
           </p>
-          <p class="pt-5">
+          <p class="pt-5 text-3xl">
             Ximer es una aplicación móvil que promueve el turismo nacional para dar a conocer actividades
             turísticas a personas que disfrutan viajar, brindando oportunidades de crecimiento a pequeños
             negocios y prestadores de servicios, beneficiándose de una herramienta útil, accesible y de bajo
@@ -62,8 +62,9 @@ const count = ref(0)*/
     <article class="mx-auto text-center bg-website-pink py-28 px-10 text-website-white">
       <div class="max-w-5xl mx-auto">
         <div class="grid grid-cols-1-auto gap-10 bg-website-white rounded-3xl text-website-gray p-10 items-center">
-          <h2 class="col-span-2 text-4xl md:px-10">Ayudamos a <span class="text-website-pink-dark font-bold">conectar</span> a los turistas con sus preferencias</h2>
-          <p class="col-span-2 md:col-auto max-w-[500px] mx-auto text-2xl lg:-mt-10">
+          <h2 class="col-span-2 text-4xl md:px-10">Ayudamos a <span
+              class="text-website-pink-dark font-bold">conectar</span> a los turistas con sus preferencias</h2>
+          <p class="col-span-2 md:col-auto max-w-[500px] mx-auto text-3xl lg:-mt-10">
             Ximer incorpora un algoritmo de gustos exclusivo y único que nos permite identificar el tipo de
             negocios y actividades afines al usuario, de esta manera, la aplicación brinda herramientas para
             personalizar su experiencia turística y aumentando así, su satisfacción y disfrute de su viaje.
@@ -73,73 +74,76 @@ const count = ref(0)*/
       </div>
     </article>
     <article class="bg-website-white text-website-black my-20">
-      <div class="max-w-2xl mx-auto gap-10 grid px-10">
-        <h3 class="text-2xl text-center">
+      <div class="max-w-5xl mx-auto gap-10 grid px-10">
+        <h3 class="text-4xl text-center">
           Tu negocio podrá disfrutar y aprovechar de cada uno de los beneficios que <span
             class="text-website-pink-dark font-bold">ximer</span> ofrece, cómo lo son:
         </h3>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-shop text-6xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Creación de un perfil donde podrás subir fotos, videos, stories.
-          </p>
+        <div class="max-w-2xl mx-auto gap-10 grid px-10">
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-shop text-6xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Creación de un perfil donde podrás subir fotos, videos, stories.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-star text-6xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Tus clientes tienen acceso a aun apartado se reseñas, comentarios y calificaciones con estrellas.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-ranking-star text-6xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Posibilidad de posicionarte dentro del Top 10 de los negocios en el mismo rubro turistico.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-bell text-7xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Espacios especiales para crear ofertas y promociones de las cuales se les notificará a tu publico ideal.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-shapes text-7xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Asesorias técnicas para que los negocios exploten al 100% los beneficios que ximer ofrece
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-home text-7xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Que tu negocio aparezca en la página de inicio de las mejores reocmendaciones.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-share-nodes text-7xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Hacer la conexión de tu perfil ximer con las redes sociales alternas.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-chart-simple text-7xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Obtener un seguimiento estadístico sobre el rendimiento de tu negocio.
+            </p>
+          </div>
+          <div class="flex items-center gap-10">
+            <i class="fa-solid fa-ticket text-6xl w-16 text-website-pink-dark"></i>
+            <p class="text-left text-2xl">
+              Hacer reservaciones automáticas dentro de ximer sin necesidad de papeleos ni tiempo extra.
+            </p>
+          </div>
         </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-star text-6xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Tus clientes tienen acceso a aun apartado se reseñas, comentarios y calificaciones con estrellas.
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-ranking-star text-6xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Posibilidad de posicionarte dentro del Top 10 de los negocios en el mismo rubro turistico.
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-bell text-7xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Espacios especiales para crear ofertas y promociones de las cuales se les notificará a tu publico ideal.
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-shapes text-7xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Asesorias técnicas para que los negocios exploten al 100% los beneficios que ximer ofrece
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-home text-7xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Que tu negocio aparezca en la página de inicio de las mejores reocmendaciones.
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-share-nodes text-7xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Hacer la conexión de tu perfil ximer con las redes sociales alternas.
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-chart-simple text-7xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Obtener un seguimiento estadístico sobre el rendimiento de tu negocio.
-          </p>
-        </div>
-        <div class="flex items-center gap-10">
-          <i class="fa-solid fa-ticket text-6xl w-16 text-website-pink-dark"></i>
-          <p class="text-left">
-            Hacer reservaciones automáticas dentro de ximer sin necesidad de papeleos ni tiempo extra.
-          </p>
-        </div>
+
       </div>
     </article>
     <article class="bg-website-pink py-20" id="formulario">
       <ContactForm />
       <div class="px-10 flex flex-col items-center mt-10">
         <h2 class="text-4xl font-bold text-website-white text-center">O contáctanos por whatsapp</h2>
-        <a href="https://wa.me/527777903411?text=Hola!%20estoy%20interesado%20en%20ser%20parte%20de%20Ximer" target="_blank"
-          class="max-w-xs text-white py-5 px-10 bg-website-green rounded-2xl mt-5">
+        <a href="https://wa.me/527777903411?text=Hola!%20estoy%20interesado%20en%20ser%20parte%20de%20Ximer"
+          target="_blank" class="max-w-xs text-white py-5 px-10 bg-website-green rounded-2xl mt-5 hover:bg-website-green-dark">
           <i class="fa-brands fa-whatsapp"></i> Click aquí
         </a>
       </div>
