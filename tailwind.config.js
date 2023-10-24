@@ -28,6 +28,7 @@ export default {
         'website-gray': '#646464',
         'website-pink': '#DD4184',
         'website-pink-dark': '#C5247A',
+        'website-green': '#128C7E',
       }
     },
   },

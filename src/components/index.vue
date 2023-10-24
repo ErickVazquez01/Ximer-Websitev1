@@ -136,6 +136,13 @@ const count = ref(0)*/
     </article>
     <article class="bg-website-pink py-20" id="formulario">
       <ContactForm />
+      <div class="px-10 flex flex-col items-center mt-10">
+        <h2 class="text-4xl font-bold text-website-white text-center">O contáctanos por whatsapp</h2>
+        <a href="https://wa.me/527777903411?text=Hola!%20estoy%20interesado%20en%20ser%20parte%20de%20Ximer" target="_blank"
+          class="max-w-xs text-white py-5 px-10 bg-website-green rounded-2xl mt-5">
+          <i class="fa-brands fa-whatsapp"></i> Click aquí
+        </a>
+      </div>
     </article>
 
   </main>
