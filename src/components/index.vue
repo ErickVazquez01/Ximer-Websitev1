@@ -22,7 +22,7 @@ const count = ref(0)*/
   </header>
   <main>
     <article class="max-w-3xl mx-auto text-center">
-      <p class="text-3xl font-bold mt-24 mb-16">
+      <p class="text-3xl font-bold mt-24 mx-5 mb-16">
         ¿Ofreces un servicio turístico único y quieres que todos vivan la escencia de tu negocio ?
       </p>
       <a class="bg-website-pink text-website-white rounded-xl px-10 py-5 hover:bg-website-pink-dark cursor-pointer"
@@ -45,7 +45,7 @@ const count = ref(0)*/
       </svg>
       <div class="bg-website-pink text-website-white text-center px-10 -mt-1 lg:-mt-16">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-5xl font-bold uppercase">Te presentamos ximer</h2>
+          <h2 class=" text-4xl sm:text-5xl font-bold uppercase">Te presentamos ximer</h2>
           <p class="pt-10 text-3xl">
             Una innovadora aplicación turística que te permite conectar con tu público ideal, ofreciéndoles una
             experiencia única y personalizada.
@@ -64,7 +64,7 @@ const count = ref(0)*/
         <div class="grid grid-cols-1-auto gap-10 bg-website-white rounded-3xl text-website-gray p-10 items-center">
           <h2 class="col-span-2 text-4xl md:px-10">Ayudamos a <span
               class="text-website-pink-dark font-bold">conectar</span> a los turistas con sus preferencias</h2>
-          <p class="col-span-2 md:col-auto max-w-[500px] mx-auto text-3xl lg:-mt-10">
+          <p class="col-span-2 md:col-auto max-w-[500px] mx-auto text-xl sm:text-3xl lg:-mt-10">
             Ximer incorpora un algoritmo de gustos exclusivo y único que nos permite identificar el tipo de
             negocios y actividades afines al usuario, de esta manera, la aplicación brinda herramientas para
             personalizar su experiencia turística y aumentando así, su satisfacción y disfrute de su viaje.
@@ -73,9 +73,9 @@ const count = ref(0)*/
         </div>
       </div>
     </article>
-    <article class="bg-website-white text-website-black my-20">
-      <div class="max-w-5xl mx-auto gap-10 grid px-10">
-        <h3 class="text-4xl text-center">
+    <article class="mx-auto bg-website-white text-website-black my-20">
+      <div class="max-w-5xl mx-auto gap-10 grid">
+        <h3 class="text-4xl text-center px-4">
           Tu negocio podrá disfrutar y aprovechar de cada uno de los beneficios que <span
             class="text-website-pink-dark font-bold">ximer</span> ofrece, cómo lo son:
         </h3>
